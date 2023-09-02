@@ -1,0 +1,128 @@
+<!--Crie uma página HTML para apresentar um ponto turístico da sua cidade. Para isso, siga os requisitos: 
+1. a página precisa ter cabeçalho, conteúdo e rodapé; 
+2. a página deve ter imagens; 
+3. utilize as tags que aprendemos até o momento!-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="lugares turisticos da europa">
+    <link rel="stylesheet" href="style.css">
+    <title>Ponto Turístico Recife - Paço do Frevo</title>
+</head>
+<body> 
+    <header class="header-nav-imagem">
+        <div>
+            <img class="imagem-logo" src="./assets/img/logo-paco.jpg" alt="logo-paco-do-frevo">
+        </div>
+        <nav class="nav-principal">
+            <ul>
+                <li type="none"><a href="#visitas-mediadas">Visitação</a></li>
+                <li type="none"><a href="#funcionamento">Funcionamento</a></li>
+                <li type="none"><a href="#ingresso">Ingresso</a></li>
+                <li type="none"><a href="#sobre">Sobre</a></li>
+            </ul>
+        </nav>   
+    </header>
+    <main class="main-texto">
+        <h1>MUSEU PAÇO DO FREVO</h1>
+        <h2>Frevo aqui: Em qualquer lugar, a qualquer hora</h2> 
+        <p class="main-paragrafo">
+            O Paço do Frevo é um espaço cultural dedicado à difusão, pesquisa, lazer e formação nas áreas da dança e música do frevo localizado na cidade do Recife, capital de Pernambuco, Brasil. Surgiu através de uma parceria entre a Prefeitura do Recife, a Fundação Roberto Marinho, o IPHAN e o Governo Federal.
+        </p>
+    </main>       
+    <section class="itens-section">
+        <section class="section-visitas-mediadas" id="visitas-mediadas">
+            <div>
+                <h3>VISITAS MEDIADAS EM GRUPO</h3>
+                <p>Por meio desta modalidade, o grupo de visitantes vai conhecer o Paço do Frevo e suas exposições através da mediação do Educativo do Paço do Frevo.</p>
+                <p>As pessoas são convidadas a se aproximar do Frevo, experienciar e construir saberes sobre o patrimônio, a cultura popular e diversos outros temas ligados a esses universos. As visitas mediadas podem ser feitas de terça a sexta e aos sábados.</p>
+            </div>
+        </section> 
+        <section class="section-funcionamento" id="funcionamento">
+            <table class="tabela-funcionameto">
+                <h3>HORÁRIO DE FUNCIONAMENTO</h3>
+                    <tr >
+                        <td>Terça a sexta | das 10h às 17h </td>
+                    </tr>
+                    <tr>
+                        <td>Sábado e Domingo | das 11h às 18h </td>
+                    </tr>
+            </table>
+        </section>
+        <section class="section-ingresso" id="ingresso">
+                <h3>INGRESSO</h3>           
+                <div>
+                        <div class="tabela-ingresso">
+                            <p>
+                                O ingresso pode ser comprado na bilheteria do museu, no momento da visita, ou através da plataforma digital Sympla, e é válido para o dia no qual foi adquirido. A visita pode ser iniciada até meia-hora antes do horário de fechamento do museu. Entrada gratuita para todos e todas às terças-feiras.
+                            </p>
+                            <table>
+                                <tr >
+                                    <td>INTEIRA | R$ 10,00</td>
+                                </tr>
+                                <tr>
+                                    <td>MEIA ENTRADA| R$ 5,00</td>
+                                </tr>
+                            </table>
+                    <img class="imagem-ingresso" src="./assets/png/pngwing.com.png" alt="desenho de um ingresso">
+
+                        </div>
+                </div>
+                <ul class="decoracao-ingresso-links">
+                    <li>
+                        <a class="ingresso-links" href="#">Compre o ingresso através do Sympla</a>
+                    </li>
+                    <li>
+                        <a class="ingresso-links" href="#">Clique aqui para conferir toda a nossa política de gratuidade e meia-entrada.</a>
+                    </li>
+                    <li>
+                        <a class="ingresso-links" href="#">Confira aqui as medidas de segurança contra a Covid-19.</a>
+                    </li>
+                </ul>
+                 
+        </section>
+        <section  class="section-sobre" id="sobre">
+                <div>
+                    <h3>SOBRE</h3>
+                    <p>Instalado no Bairro do Recife, o Paço do Frevo é um Centro de Referência em Salvaguarda do Frevo dedicado à difusão, pesquisa, lazer e formação nas áreas da dança e música do frevo. Seu objetivo é proteger, divulgar e propagar a prática do frevo para as futuras gerações e ser uma espaço de promoção e celebração da cultura carnavalesca e do frevo durante o ano todo.</p>
+                    <p>Surgiu através de uma parceria entre a Prefeitura do Recife, a Fundação Roberto Marinho, o IPHAN e o Governo Federal.</p>
+                    <p>Desde 2014, o Paço desenvolve exposições, atividades, pesquisas e eventos para a divulgação e proteção desse Patrimônio Imaterial da Humanidade, que deve ser reverenciado todos os dias.</p>
+                    
+                </div>
+                <img class="imagem-predio" src="./assets/png/home-sobre-predio.png" alt="predio paço do frevo">     
+        </section>
+        
+    </section>
+    <form>
+        <div>
+            <label for="nome" class="text_nome">Nome:</label>
+            <input type="text" id="nome" class="campo_nome" minlength="3"/>
+        </div>
+        
+        <div>
+            <label for="mensagem" class="text_mensagem">Mensagem:</label>
+            <textarea id="mensagem" class="campo_mensagem" rows="20" cols="10" minlength="15"></textarea>
+        </div>
+    
+        <div class="button">
+            <button id="button" type="submit">Enviar mensagem</button>
+        </div>
+    </form>
+    <footer>
+        <div class="footer__links">
+            <a href="https://github.com/kellykilmadesousa" class="header__link" title="me acompanhe no github" target="_blank">
+                <img class="icone" alt="github" src="./assets/icon/iconmonstr-github-1.svg">
+            </a>
+            <a href="https://www.linkedin.com/in/kellykilma/" class="header__link" title="me acompanhe no linkedin">
+                <img class="icone" alt="linkedin" src="./assets/icon/iconmonstr-linkedin-4.svg">
+            </a>
+            <a href="https://twitter.com/iamkeesousa" class="header__link" title="me siga no twitter" target="_blank">
+                <img class="icone" alt="twitter" src="./assets/icon/iconmonstr-twitter-4.svg">
+            </a>
+            
+        </div>  
+    </footer>
+</body>
+</html>
