@@ -58,6 +58,19 @@ h3{
     text-align: center;   
 }
 
+#titulo-visitas-mediadas{
+    color: cornflowerblue;
+    
+}
+
+#titulo-funcionamento{
+    color: rgb(134, 100, 237); 
+}
+
+#titulo-ingresso{
+    color: rgb(100, 228, 237); 
+}
+
 section{
     margin: 20px 20px;
     padding: 20px 20px;
